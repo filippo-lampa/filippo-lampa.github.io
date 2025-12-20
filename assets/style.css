@@ -3,7 +3,7 @@ body {
   font-family: Georgia, "Times New Roman", serif;
   color: #111;
   background: #fff;
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 header, main, footer {
@@ -14,7 +14,7 @@ header, main, footer {
 
 h1 {
   font-weight: normal;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.25rem;
 }
 
 h2 {
@@ -29,17 +29,26 @@ h2 {
 }
 
 nav {
-  margin-top: 1.8rem;
+  margin-top: 2rem;
 }
 
 nav a {
   margin-right: 1.2rem;
-  text-decoration: none;
   color: #111;
+  text-decoration: none;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #000;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
 }
 
 ul, ol {
@@ -47,15 +56,18 @@ ul, ol {
 }
 
 .pubs li {
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.8rem;
 }
 
-.pubs a {
-  text-decoration: none;
+.links a {
+  margin-right: 0.8rem;
+  font-size: 0.9rem;
 }
 
-.pubs a:hover {
-  text-decoration: underline;
+.outreach {
+  margin-top: 1.2rem;
+  color: #444;
+  font-size: 0.95rem;
 }
 
 footer {
